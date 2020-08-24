@@ -11,7 +11,7 @@ Things you may want to cover:
 * Rails version
   6.0.3.2
 
-*初回セットアップ
+* 初回セットアップ
 ```
 $ docker build
 $ docker-compose up
