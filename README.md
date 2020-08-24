@@ -17,19 +17,12 @@ $ docker build
 $ docker-compose up
 $ docker-compose run web rails db:create
 ```
+* 2回目以降
+2つのコマンドラインで操作
+```
+$ docker-compose up
+$ docker-compose run web bin/webpack-dev-server
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
